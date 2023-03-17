@@ -263,7 +263,6 @@ if __name__ == "__main__":
     image_matrixf.save('image_f1.png')
     image_matrixv = Image.fromarray(obim.image_matrix_v, mode='L')
     image_matrixv.save('image_v1.png')
-
-
+    print("Hello, world!")
 
 
